@@ -56,16 +56,21 @@ footer {
 </style>
 
 <header>
-  <h1>Research Website</h1>
+  <h1>The Environmental Health and Engineering Lab</h1>
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="publications.html">Publications</a></li>
+      <li><a href="members.html">Members</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 </header>
+
+> "The quality of life depends upon the ability of society to teach its members how to live in harmony with their environment—defined first as family, then the community, then the world and its resources."
+>
+> [Dr. Ellen Henrietta Swallow Richards (1842-1911)](https://en.wikipedia.org/wiki/Ellen_Swallow_Richards)
 
 <main>
 <section id="Mission">
