@@ -1,6 +1,9 @@
 ---
 title: "Microbial Water Quality Research "
-output: html_document
+output: 
+  html_document:
+  css: style.css
+
 ---
 
 <style>
@@ -15,7 +18,7 @@ body {
 }
 
 header {
-    background-color: #333; /* Green background color */
+    background-color: #4444; /* Green background color */
     color: white; /* Text color */
     padding: 1rem 0; /* Adjust padding as needed */
     text-align: center;
@@ -54,7 +57,7 @@ nav ul li a:hover {
 }
 
 .footer {
-    background-color: #4CAF50; /* Green background color */
+    background-color: #dddd; /* shaded white */
     color: white; /* Text color */
     text-align: center;
     padding: 1rem 0;
