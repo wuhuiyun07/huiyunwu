@@ -9,7 +9,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: url('images/background.jpg') no-repeat center center fixed;
+    background: url('images/river.jpg') no-repeat center center fixed;
     background-size: cover;
     color: white; /* Optional: If the background is dark, set text color to white */
 }
@@ -85,5 +85,4 @@ footer {
   <p>&copy; 2024 Research Website. All rights reserved.</p>
 </footer>
 
-#library(rmarkdown)
-#render("index.Rmd")
+
