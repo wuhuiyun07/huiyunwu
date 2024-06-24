@@ -68,14 +68,16 @@ footer {
   </nav>
 </header>
 
-> "The quality of life depends upon the ability of society to teach its members how to live in harmony with their environment—defined first as family, then the community, then the world and its resources."
->
-> [Dr. Ellen Henrietta Swallow Richards (1842-1911)](https://en.wikipedia.org/wiki/Ellen_Swallow_Richards)
+"The quality of life depends upon the ability of society to teach its members how to live in harmony with their environment—defined first as family, then the community, then the world and its resources."
+
+[Dr. Ellen Henrietta Swallow Richards (1842-1911)](https://en.wikipedia.org/wiki/Ellen_Swallow_Richards)
 
 <main>
 <section id="Mission">
+  <nav>
   <h2>Mission</h2>
   <p>Nearly 150 years later, our research group shares the dedication of Dr. Ellen Henrietta Swallow Vassar as we strive to protect environmental and human health from exposure to *microbial pathogens*. We now have advanced tools in microbiology, molecular microbiology, next-generation sequencing, long-read sequencing, bioinformatics, and statistics. Our research group is dedicated to integrating across disciplines to advance our knowledge of pathogen assessments at various sites (environmental, recreational, or drinking water) and ultimately to prevent infectious waterborne diseases. Microbial water quality research is experiencing an amazing period of growth, and we are helping to lead that effort. If you are interested in learning more about our work, please explore this site and feel free to contact us if you have any questions.</p>
+  </nav>
 </section>
 </main>
 
