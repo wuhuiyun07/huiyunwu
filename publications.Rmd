@@ -1,5 +1,5 @@
 ---
-title: "Home - Research Website"
+title: "Publications - Research Website"
 output: html_document
 ---
 
@@ -16,9 +16,13 @@ output: html_document
 </header>
 
 <main>
-<section id="home">
-  <h2>Welcome</h2>
-  <p>Welcome to our research website. Here you'll find information about our latest projects and publications.</p>
+<section id="publications">
+  <h2>Publications</h2>
+  <ul>
+    <li><strong>Publication 1</strong>: A groundbreaking study on XYZ.</li>
+    <li><strong>Publication 2</strong>: An in-depth analysis of ABC.</li>
+    <li><strong>Publication 3</strong>: A comprehensive review of DEF.</li>
+  </ul>
 </section>
 </main>
 

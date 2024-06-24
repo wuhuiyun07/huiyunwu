@@ -1,5 +1,5 @@
 ---
-title: "Home - Research Website"
+title: "Contact - Research Website"
 output: html_document
 ---
 
@@ -16,13 +16,13 @@ output: html_document
 </header>
 
 <main>
-<section id="home">
-  <h2>Welcome</h2>
-  <p>Welcome to our research website. Here you'll find information about our latest projects and publications.</p>
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Feel free to reach out to us at <a href="mailto:huiyun.wu@wsu.edu">huiyun.wu@wsu.edu</a>.</p>
 </section>
 </main>
 
 <footer>
-  <p>&copy; 2024 Research Website. All rights reserved.</p>
+  <p>&copy; Dr.Huiyun Wu Research Website. All rights reserved.</p>
 </footer>
 
