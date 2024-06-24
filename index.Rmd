@@ -83,7 +83,7 @@ nav ul li a:hover {
 
 <section id="Mission">
 <main>
-  <h2 style="background-color: #55555; color: white; padding: 8px;">Mission</h2>
+  <h2 style="background-color: #55555; color: light gray; padding: 8px;">Mission</h2>
   <p style="background-color: #cccccc; color: white; padding: 8px;">Nearly 150 years later, our research group shares the dedication of Dr. Ellen Henrietta Swallow Vassar as we strive to protect environmental and human health from exposure to *microbial pathogens*. We now have advanced tools in microbiology, molecular microbiology, next-generation sequencing, long-read sequencing, bioinformatics, and statistics. Our research group is dedicated to integrating across disciplines to advance our knowledge of pathogen assessments at various sites (environmental, recreational, or drinking water) and ultimately to prevent infectious waterborne diseases. Microbial water quality research is experiencing an amazing period of growth, and we are helping to lead that effort. If you are interested in learning more about our work, please explore this site and feel free to contact us if you have any questions.</p>
 </section>
 </main>
@@ -91,7 +91,7 @@ nav ul li a:hover {
 
 <main>
 <section id="Welcome">
-  <h2 style="background-color: #55555; color: white; padding: 8px;" >Welcome</h2>
+  <h2 style="background-color: #55555; color: light gray; padding: 8px;" >Welcome</h2>
   <p style="background-color: #cccccc; color: white; padding: 8px;">We are fortunate to reside within the [Department of Civil and Environmental Engineering](https://ce.wsu.edu/) at [Washington State University](http://www.wsu.edu), in the [Voiland College of Engineering and Architecture](https://vcea.wsu.edu/). Our department has a rich history of outstanding research and engineering practice in water quality, hydrology, and natural environment preservation and protection. Our lab is in the [PACCAR Environmental Technology Building](https://cplinc.com/work/projects/paccar-environmental-technology-building/), a hub of interdisciplinary research and education and a [Certified LEED New Construction Gold](https://lmnarchitects.com/project/paccar-environmental-technology-building-washington-state-university). We have direct access to qPCR, BSL2, BSL 2+ labs, [Illumina Sequencing](https://labs.wsu.edu/genomicscore/), [PacBio Sequencing](https://lbb.wsu.edu/), and genotyping. Over the years, we have benefited from rich collaborations with diverse colleagues in environmental engineering, microbiology, virology, and public health. These include Drs. [Irene Xagoraraki](https://www.egr.msu.edu/~xagorara/), [Joan Rose](https://rosejo.msu.domains/), [Marirosa Molina](https://www.researchgate.net/profile/Marirosa-Molina), and [Melissa Gonzales](https://sph.tulane.edu/enhs/melissa-gonzales). Through these great collaborations, we are passionate about addressing environmental challenges in environmental and human health.</p>
 </section>
 </main>
