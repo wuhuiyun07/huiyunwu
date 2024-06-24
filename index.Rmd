@@ -1,5 +1,5 @@
 ---
-title: "Home - Research Website"
+title: "Microbial Water Quality Research "
 output: html_document
 ---
 
@@ -9,9 +9,9 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: url('images/background.png') no-repeat center center fixed;
+    background: url('images/background.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: white; /* Optional: If the background is dark, set text color to white */
+    color: blue; /* Optional: If the background is dark, set text color to white */
 }
 
 header {
@@ -68,7 +68,7 @@ footer {
 </header>
 
 <main>
-<section id="home">
+<section id="Welcome">
   <h2>Welcome</h2>
   <p>Welcome to our research website. Here you'll find information about our latest projects and publications.</p>
 </section>
@@ -77,3 +77,6 @@ footer {
 <footer>
   <p>&copy; 2024 Research Website. All rights reserved.</p>
 </footer>
+
+#library(rmarkdown)
+#render("index.Rmd")
