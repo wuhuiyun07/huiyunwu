@@ -4,58 +4,42 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Team · Microbial Water Quality Lab</title>
-  <link rel="icon" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;520;650&family=Fraunces:opsz,wght@9..144,460;9..144,560&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Outfit:wght@340;480;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --ink:#17211e; --soft:#4d5c57; --teal:#1e6f66; --paper:#f4f0e8; --line:#e4ddd2; }
+    * { box-sizing:border-box; } body { margin:0; color:var(--ink); background:var(--paper); font-family:Outfit,sans-serif; font-size:18px; line-height:1.6; } a { color:var(--teal); } img { max-width:100%; }
+    .nav { display:flex; justify-content:space-between; align-items:center; padding:18px 7vw; position:sticky; top:0; background:rgba(244,240,232,.94); border-bottom:1px solid var(--line); }
+    .brand { color:var(--ink); text-decoration:none; font-weight:600; } .nav-links { display:flex; gap:22px; } .nav-links a { color:#4d5c57; text-decoration:none; } .nav-links a[aria-current="page"] { color:var(--ink); }
+    .wrap { width:min(980px, calc(100% - 10vw)); margin:0 auto; } section { padding:56px 0; }
+    h1, h2, h3 { font-family:Fraunces,serif; font-weight:500; } h1 { font-size:clamp(40px,6vw,64px); margin:0; }
+    .person { display:grid; grid-template-columns:150px 1fr; gap:24px; background:#fffdf9; border:1px solid var(--line); border-radius:20px; padding:22px; margin-top:22px; }
+    .person img { width:150px; height:150px; object-fit:cover; border-radius:50%; }
+    .band { margin-top:28px; border-radius:18px; height:280px; object-fit:cover; width:100%; }
+    footer { background:#102e2b; color:#e7efe9; padding:28px 7vw; } footer a { color:#f3e6d8; }
+    @media (max-width:800px) { .person, .nav { display:block; } .nav-links { margin-top:10px; } }
+  </style>
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
-  <header class="nav">
-    <a class="brand" href="index.html"><span class="mark">W</span> Microbial Water Quality Lab</a>
-    <button class="nav-toggle" aria-expanded="false">Menu</button>
-    <nav class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="team.html" aria-current="page">Team</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-  <main id="main">
-    <div class="wrap page-hero">
-      <p class="section-label">Team</p>
-      <h1>Who works here</h1>
-    </div>
-    <section>
-      <div class="wrap">
-        <article class="person card">
-          <img src="images/portrait.jpg" alt="Portrait of Huiyun Wu" style="width:96px;height:96px;object-fit:cover;border-radius:50%">
-          <div>
-            <h2 style="margin:0">Huiyun Wu, Ph.D.</h2>
-            <p class="meta">Principal investigator · Washington State University</p>
-            <p>Assistant Professor of Civil and Environmental Engineering. Her work runs from field sampling at treatment plants through molecular and sequencing methods to the models and risk assessments that utilities and regulators use.</p>
-            <p>She joined Washington State University in 2024. Before that she held a postdoctoral appointment in Environmental Health Sciences at Tulane University with Tiong Gim Aw, and spent three years as a research fellow at the United States Environmental Protection Agency, Office of Research and Development, with Marirosa Molina, working on water reuse.</p>
-            <p>She completed her doctorate and master's degree in environmental engineering at Michigan State University with Irene Xagoraraki, and holds a bachelor's degree in environmental science. She passed the Principles and Practice of Engineering examination in environmental engineering in 2020.</p>
-            <p>She serves on the Groundwater Technical Advisory Committee of the Washington State Department of Ecology, and on a Water Research Foundation project advisory committee. She teaches stormwater management and hazardous contaminant pathway analysis.</p>
-          </div>
-        </article>
-        <h2 style="margin-top:42px">The lab</h2>
-        <p>We work in the <a href="https://cplinc.com/work/projects/paccar-environmental-technology-building/">PACCAR Environmental Technology Building</a>, a LEED Gold facility shared across the environmental disciplines. The group runs an 840 square foot biosafety level 2 environmental virology laboratory built for molecular work on water samples, from concentration through sequencing. Computation runs on the university's <a href="https://hpc.wsu.edu/">Kamiak</a> cluster, where the group holds a dedicated node.</p>
-        <h2>Instruments</h2>
-        <ul>
-          <li>Oxford Nanopore P2 Solo long-read sequencer</li>
-          <li>Qiagen QIAcuity digital polymerase chain reaction</li>
-          <li>Bio-Rad CFX96 quantitative polymerase chain reaction</li>
-          <li>Agilent TapeStation 4150</li>
-          <li>Biosafety level 2 and 2+ culture facilities</li>
-        </ul>
-        <h2>Collaborators</h2>
-        <p>Irene Xagoraraki (Michigan State University) · <a href="https://rosejo.msu.domains/">Joan Rose</a> (Michigan State University) · Marirosa Molina (United States Environmental Protection Agency) · <a href="https://sph.tulane.edu/enhs/melissa-gonzales">Melissa Gonzales</a> (Tulane University) · Tiong Gim Aw (Tulane University)</p>
+  <header class="nav"><a class="brand" href="index.html">Microbial Water Quality Lab</a><nav class="nav-links"><a href="index.html">Home</a><a href="research.html">Research</a><a href="team.html" aria-current="page">Team</a><a href="contact.html">Contact</a></nav></header>
+  <main><section><div class="wrap">
+    <h1>Who works here</h1>
+    <article class="person">
+      <img src="images/portrait.jpg" alt="Portrait of Huiyun Wu">
+      <div>
+        <h2>Huiyun Wu, Ph.D.</h2>
+        <p>Assistant Professor of Civil and Environmental Engineering. Her work runs from field sampling at treatment plants through molecular and sequencing methods to the models and risk assessments that utilities and regulators use.</p>
+        <p>She joined Washington State University in 2024, after a postdoctoral appointment at Tulane University with Tiong Gim Aw and a research fellowship at the U.S. EPA with Marirosa Molina. She completed her doctorate and master's at Michigan State University with Irene Xagoraraki, and passed the Principles and Practice of Engineering examination in 2020.</p>
       </div>
-    </section>
-  </main>
-  <footer><div class="wrap fine">Microbial Water Quality Lab · Washington State University</div></footer>
-  <script src="js/site.js"></script>
+    </article>
+    <img class="band" src="images/dusk.jpg" alt="Water at dusk">
+    <h2>The laboratory</h2>
+    <p>An 840 square foot biosafety level 2 environmental virology laboratory in the <a href="https://cplinc.com/work/projects/paccar-environmental-technology-building/">PACCAR Environmental Technology Building</a>, a LEED Gold facility. Computation runs on the university <a href="https://hpc.wsu.edu/">Kamiak</a> cluster, where the group holds a dedicated node.</p>
+    <p>Oxford Nanopore P2 Solo · Qiagen QIAcuity digital PCR · Bio-Rad CFX96 · Agilent TapeStation 4150 · BSL-2 and BSL-2+ culture facilities.</p>
+    <h2>Collaborators</h2>
+    <p>Irene Xagoraraki, Michigan State University · <a href="https://rosejo.msu.domains/">Joan Rose</a>, Michigan State University · Marirosa Molina, U.S. EPA · <a href="https://sph.tulane.edu/enhs/melissa-gonzales">Melissa Gonzales</a>, Tulane University · Tiong Gim Aw, Tulane University.</p>
+  </div></section></main>
+  <footer>Microbial Water Quality Lab · <a href="mailto:huiyun.wu@wsu.edu">huiyun.wu@wsu.edu</a></footer>
 </body>
 </html>

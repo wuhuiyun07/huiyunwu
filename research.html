@@ -4,55 +4,43 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Research · Microbial Water Quality Lab</title>
-  <link rel="icon" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;520;650&family=Fraunces:opsz,wght@9..144,460;9..144,560&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Outfit:wght@340;480;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --ink:#17211e; --soft:#4d5c57; --deep:#102e2b; --teal:#1e6f66; --paper:#f4f0e8; --line:#e4ddd2; }
+    * { box-sizing:border-box; } body { margin:0; color:var(--ink); background:var(--paper); font-family:Outfit,sans-serif; font-size:18px; line-height:1.6; } a { color:var(--teal); } img { max-width:100%; }
+    .nav { display:flex; justify-content:space-between; align-items:center; padding:18px 7vw; position:sticky; top:0; background:rgba(244,240,232,.94); border-bottom:1px solid var(--line); }
+    .brand, .nav-links a { color:var(--ink); text-decoration:none; } .nav-links { display:flex; gap:22px; } .nav-links a { color:#4d5c57; } .nav-links a[aria-current="page"] { color:var(--ink); }
+    .wrap { width:min(1080px, calc(100% - 10vw)); margin:0 auto; } section { padding:64px 0; }
+    h1, h2, h3 { font-family:Fraunces,serif; font-weight:500; letter-spacing:-.03em; } h1 { font-size:clamp(40px,6vw,68px); line-height:1.05; margin:0 0 18px; }
+    .grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; } .card, .paper { background:#fffdf9; border:1px solid var(--line); border-radius:16px; padding:20px; margin:0 0 12px; }
+    .kicker { letter-spacing:.14em; text-transform:uppercase; font-size:12px; color:#b4633e; } footer { background:#102e2b; color:#e7efe9; padding:28px 7vw; } footer a { color:#f3e6d8; }
+    @media (max-width:800px) { .grid, .nav { display:block; } .nav-links { margin-top:10px; } }
+  </style>
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
-  <header class="nav">
-    <a class="brand" href="index.html"><span class="mark">W</span> Microbial Water Quality Lab</a>
-    <button class="nav-toggle" aria-expanded="false">Menu</button>
-    <nav class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="research.html" aria-current="page">Research</a>
-      <a href="team.html">Team</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-  <main id="main">
-    <div class="wrap page-hero">
-      <p class="section-label">Research</p>
-      <h1>What is living in this water, where did it come from, and will the treatment remove it?</h1>
+  <header class="nav"><a class="brand" href="index.html">Microbial Water Quality Lab</a><nav class="nav-links"><a href="index.html">Home</a><a href="research.html" aria-current="page">Research</a><a href="team.html">Team</a><a href="contact.html">Contact</a></nav></header>
+  <main><section><div class="wrap">
+    <p class="kicker">Research</p>
+    <h1>What is living in this water, where did it come from, and will the treatment remove it?</h1>
+    <div class="grid">
+      <article class="card"><h3>Wastewater-based epidemiology</h3><p>Reading community infection from what arrives at the treatment plant, and where that inference breaks.</p></article>
+      <article class="card"><h3>Virus removal and water reuse</h3><p>Membrane filtration, disinfection, and log removal verification, including whether membranes can replace chlorine.</p></article>
+      <article class="card"><h3>Prophage ecology</h3><p>Phages integrated in bacterial genomes, what induces them, and what they carry when they move.</p></article>
+      <article class="card"><h3>Source tracking and transport</h3><p>Attributing contamination to sources and modelling where it travels, with watershed simulation and global sensitivity analysis.</p></article>
+      <article class="card"><h3>Biofilms and particles</h3><p>How communities form on surfaces, and how viruses associate with microplastics and other particles that shelter them from treatment.</p></article>
+      <article class="card"><h3>Environmental bioinformatics</h3><p>Long-read and short-read sequencing, metagenome assembly, and pipelines another person can check.</p></article>
     </div>
-    <section>
-      <div class="wrap grid-2">
-        <article class="card"><h3>Wastewater-based epidemiology</h3><p>Reading community infection from what arrives at the treatment plant. We work on what a wastewater measurement can validly tell you, and where that inference breaks.</p></article>
-        <article class="card"><h3>Virus removal and water reuse</h3><p>Membrane filtration, disinfection, and log removal verification — including whether membranes can replace chlorine for virus removal at a working reclamation facility.</p></article>
-        <article class="card"><h3>Prophage ecology</h3><p>Phages integrated in bacterial genomes, what induces them, and what they carry with them when they move.</p></article>
-        <article class="card"><h3>Source tracking, fate and transport</h3><p>Attributing contamination to specific sources, and modelling where it travels, using watershed simulation with global sensitivity analysis.</p></article>
-        <article class="card"><h3>Biofilms and particle interactions</h3><p>How community structure forms on surfaces, and how viruses associate with microplastics and other particles that shelter them from treatment.</p></article>
-        <article class="card"><h3>Environmental bioinformatics</h3><p>Long-read and short-read sequencing, metagenome assembly, and the open, reproducible pipelines that make the results checkable by someone else.</p></article>
-      </div>
-    </section>
-    <section style="padding-top:0">
-      <div class="wrap">
-        <p class="section-label">Current projects</p>
-        <h2>In the lab now</h2>
-        <article class="pub"><span class="tag">Spokane</span><p>Membrane filtration as a replacement for chlorine disinfection for virus removal at a regional water reclamation facility, with the City of Spokane and Spokane County.</p></article>
-        <article class="pub"><span class="tag">WRF</span><p>Ultrafiltration for virus removal, with the Water Research Foundation.</p></article>
-        <p class="section-label" style="margin-top:36px">Selected papers</p>
-        <p>The full list is on <a href="https://scholar.google.com/citations?user=sAIJSssAAAAJ">Google Scholar</a> and <a href="https://orcid.org/0000-0001-8935-7759">ORCID</a>.</p>
-        <article class="pub"><span class="tag">2026</span><p>Sun, Zhang, Han, Zhu, Tang, Wu, Aw, et al. Discovery of emerging vesicle-associated viruses in wastewater and implications for engineering interventions. <em>Nature Water</em>. <a href="https://doi.org/10.1038/s44221-026-00608-x">DOI</a></p></article>
-        <article class="pub"><span class="tag">2025</span><p>Wu, Brighton, Chen, Shuai, and Aw. Quantification of particle-associated viruses in secondary treated wastewater effluent. <em>Food and Environmental Virology</em>.</p></article>
-        <article class="pub"><span class="tag">2023</span><p>Wu, Juel, Eytcheson, Aw, Munir, and Molina. Temporal and spatial relationships of crAssphage and enteric pathogens in North Carolina wastewater. <em>Water Research</em>. <a href="https://doi.org/10.1016/j.watres.2023.120008">DOI</a></p></article>
-        <article class="pub"><span class="tag">2020</span><p>McCall, Wu, Miyani, and Xagoraraki. Identification of multiple potential viral diseases in a large urban center using wastewater surveillance. <em>Water Research</em>. <a href="https://doi.org/10.1016/j.watres.2020.116160">DOI</a></p></article>
-      </div>
-    </section>
-  </main>
-  <footer><div class="wrap fine">Microbial Water Quality Lab · Washington State University</div></footer>
-  <script src="js/site.js"></script>
+    <h2>Current projects</h2>
+    <article class="paper"><strong>Spokane.</strong> Membrane filtration as a replacement for chlorine disinfection at a regional water reclamation facility, with the City of Spokane and Spokane County.</article>
+    <article class="paper"><strong>Water Research Foundation.</strong> Ultrafiltration for virus removal.</article>
+    <h2>Selected papers</h2>
+    <p>Full list on <a href="https://scholar.google.com/citations?user=sAIJSssAAAAJ">Google Scholar</a>.</p>
+    <article class="paper">Sun, Zhang, Han, Zhu, Tang, Wu, Aw, et al. Discovery of emerging vesicle-associated viruses in wastewater. <em>Nature Water</em>, 2026. <a href="https://doi.org/10.1038/s44221-026-00608-x">DOI</a></article>
+    <article class="paper">Wu, Brighton, Chen, Shuai, and Aw. Quantification of particle-associated viruses in secondary treated wastewater effluent. <em>Food and Environmental Virology</em>, 2025.</article>
+    <article class="paper">Wu, Juel, Eytcheson, Aw, Munir, and Molina. crAssphage and enteric pathogens in North Carolina wastewater. <em>Water Research</em>, 2023. <a href="https://doi.org/10.1016/j.watres.2023.120008">DOI</a></article>
+  </div></section></main>
+  <footer>Microbial Water Quality Lab · <a href="mailto:huiyun.wu@wsu.edu">huiyun.wu@wsu.edu</a></footer>
 </body>
 </html>

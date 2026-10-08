@@ -4,47 +4,41 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact · Microbial Water Quality Lab</title>
-  <link rel="icon" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;520;650&family=Fraunces:opsz,wght@9..144,460;9..144,560&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Outfit:wght@340;480;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --ink:#17211e; --soft:#4d5c57; --teal:#1e6f66; --paper:#f4f0e8; --line:#e4ddd2; }
+    * { box-sizing:border-box; } body { margin:0; color:var(--ink); background:var(--paper); font-family:Outfit,sans-serif; font-size:18px; line-height:1.65; } a { color:var(--teal); } img { max-width:100%; display:block; }
+    .nav { display:flex; justify-content:space-between; align-items:center; padding:18px 7vw; position:sticky; top:0; background:rgba(244,240,232,.94); border-bottom:1px solid var(--line); }
+    .brand { color:var(--ink); text-decoration:none; font-weight:600; } .nav-links { display:flex; gap:22px; } .nav-links a { color:#4d5c57; text-decoration:none; } .nav-links a[aria-current="page"] { color:var(--ink); }
+    .wrap { width:min(980px, calc(100% - 10vw)); margin:0 auto; } section { padding:56px 0; }
+    h1 { font-family:Fraunces,serif; font-weight:500; font-size:clamp(40px,6vw,64px); line-height:1.05; margin:0 0 12px; }
+    .layout { display:grid; grid-template-columns:1fr 1.1fr; gap:28px; align-items:start; }
+    .mail { display:inline-block; background:#102e2b; color:#f7f3ec; text-decoration:none; border-radius:999px; padding:10px 16px; }
+    .frame { border-radius:18px; width:100%; height:100%; max-height:460px; object-fit:cover; }
+    .caption { color:var(--soft); font-size:14px; } footer { background:#102e2b; color:#e7efe9; padding:28px 7vw; } footer a { color:#f3e6d8; }
+    @media (max-width:800px) { .layout, .nav { display:block; } .nav-links { margin-top:10px; } }
+  </style>
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
-  <header class="nav">
-    <a class="brand" href="index.html"><span class="mark">W</span> Microbial Water Quality Lab</a>
-    <button class="nav-toggle" aria-expanded="false">Menu</button>
-    <nav class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="team.html">Team</a>
-      <a href="contact.html" aria-current="page">Contact</a>
-    </nav>
-  </header>
-  <main id="main">
-    <div class="wrap page-hero">
-      <p class="section-label">Contact</p>
-      <h1>Email, phone, and where to find us</h1>
-      <p class="lede">For prospective students: send a short note about what interests you and a curriculum vitae. For collaboration, sampling access, or anything about the published work, email is the fastest route.</p>
-    </div>
-    <section>
-      <div class="wrap grid-2">
-        <div>
-          <p><a class="btn btn-dark" href="mailto:huiyun.wu@wsu.edu">huiyun.wu@wsu.edu</a></p>
-          <p><a href="tel:+15093358167">+1 509 335 8167</a></p>
-          <p><a href="https://ce.wsu.edu/faculty/huiyun-wu/">Department profile</a></p>
-          <p><strong>Huiyun Wu, Ph.D.</strong><br>Department of Civil and Environmental Engineering<br>Washington State University<br>PACCAR Environmental Technology Building<br>Pullman, Washington 99164</p>
-          <p>You do not need a background in microbiology. Students arrive here from environmental engineering, biology, public health and computer science, and the methods are learned on the way. What matters is that you want to know whether something is true and are willing to do the measurement that settles it.</p>
-        </div>
-        <figure>
-          <img src="images/river-band.jpg" alt="The Mississippi River at New Orleans" style="border-radius:18px">
-          <figcaption class="meta">The Mississippi River at New Orleans, one of our earlier sampling sites.</figcaption>
-        </figure>
+  <header class="nav"><a class="brand" href="index.html">Microbial Water Quality Lab</a><nav class="nav-links"><a href="index.html">Home</a><a href="research.html">Research</a><a href="team.html">Team</a><a href="contact.html" aria-current="page">Contact</a></nav></header>
+  <main><section><div class="wrap">
+    <h1>Email, phone, and where to find us</h1>
+    <p>For prospective students, send a short note and a curriculum vitae. For collaboration or sampling access, email is the fastest route.</p>
+    <div class="layout">
+      <div>
+        <p><a class="mail" href="mailto:huiyun.wu@wsu.edu">huiyun.wu@wsu.edu</a></p>
+        <p><a href="tel:+15093358167">+1 509 335 8167</a><br><a href="https://ce.wsu.edu/faculty/huiyun-wu/">Department profile</a></p>
+        <p><strong>Huiyun Wu, Ph.D.</strong><br>Department of Civil and Environmental Engineering<br>Washington State University<br>PACCAR Environmental Technology Building<br>Pullman, Washington 99164</p>
+        <p>You do not need a background in microbiology. Students arrive from environmental engineering, biology, public health, and computer science. What matters is that you want to know whether something is true and are willing to do the measurement that settles it.</p>
       </div>
-    </section>
-  </main>
-  <footer><div class="wrap fine">Microbial Water Quality Lab · Washington State University</div></footer>
-  <script src="js/site.js"></script>
+      <figure>
+        <img class="frame" src="images/river-band.jpg" alt="The Mississippi River at New Orleans">
+        <figcaption class="caption">The Mississippi River at New Orleans, one of our earlier sampling sites.</figcaption>
+      </figure>
+    </div>
+  </div></section></main>
+  <footer>Microbial Water Quality Lab · Pullman</footer>
 </body>
 </html>
