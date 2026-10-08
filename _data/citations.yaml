@@ -1,0 +1,63 @@
+# Starter list from the October 2026 CV.
+# The citation workflow overwrites this file from ORCID 0000-0001-8935-7759.
+
+- id: doi:10.1038/s44221-026-00608-x
+  title: Discovery of emerging vesicle-associated viruses in wastewater and implications for engineering interventions
+  authors:
+  - Yuepeng Sun
+  - Hongyue Zhang
+  - Minghao Han
+  - Yiwen Zhu
+  - Xiaonan Tang
+  - Huiyun Wu
+  - Tiong Gim Aw
+  publisher: Nature Water
+  date: '2026-03-02'
+  link: https://doi.org/10.1038/s44221-026-00608-x
+
+- id: doi:10.1016/j.watres.2023.120008
+  title: Temporal and spatial relationships of crAssphage and enteric viral and bacterial pathogens in wastewater in North Carolina
+  authors:
+  - Huiyun Wu
+  - Md Ariful Islam Juel
+  - Stephanie Eytcheson
+  - Tiong Gim Aw
+  - Mariya Munir
+  - Marirosa Molina
+  publisher: Water Research
+  date: '2023-07-01'
+  link: https://doi.org/10.1016/j.watres.2023.120008
+
+- id: doi:10.1016/j.watres.2020.116160
+  title: Identification of multiple potential viral diseases in a large urban center using wastewater surveillance
+  authors:
+  - Camille McCall
+  - Huiyun Wu
+  - Brijen Miyani
+  - Irene Xagoraraki
+  publisher: Water Research
+  date: '2020-10-01'
+  link: https://doi.org/10.1016/j.watres.2020.116160
+
+- id: doi:10.1016/j.scitotenv.2023.167443
+  title: Targeted community wastewater surveillance for SARS-CoV-2 and Mpox virus during a festival mass-gathering event
+  authors:
+  - Keegan Brighton
+  - Samuel Fisch
+  - Huiyun Wu
+  - K. Vigil
+  - Tiong Gim Aw
+  publisher: Science of the Total Environment
+  date: '2024-01-01'
+  link: https://doi.org/10.1016/j.scitotenv.2023.167443
+
+- id: doi:10.3390/w14152361
+  title: Developing indicators of nutrient pollution in streams using 16S rRNA gene metabarcoding of periphyton-associated bacteria
+  authors:
+  - Erik M. Pilgrim
+  - Nathan J. Smucker
+  - Huiyun Wu
+  - Marirosa Molina
+  publisher: Water
+  date: '2022-08-01'
+  link: https://doi.org/10.3390/w14152361

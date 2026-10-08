@@ -1,0 +1,77 @@
+# site properties and page defaults
+title: Microbial Water Quality Lab
+subtitle: Huiyun Wu · Washington State University
+description: We study the microorganisms in water that make people sick, and the engineering that removes them. Civil and Environmental Engineering, Washington State University.
+header: images/water.jpg
+footer: images/dusk.jpg
+proofer: false
+
+# site social media and other links
+links:
+  email: huiyun.wu@wsu.edu
+  orcid: 0000-0001-8935-7759
+  google-scholar: sAIJSssAAAAJ
+  github: wuhuiyun07
+
+### jekyll settings
+
+# front matter defaults
+defaults:
+  # all markdown files
+  - scope:
+      path: ""
+    values:
+      layout: default
+  # markdown files in /_members
+  - scope:
+      type: "members"
+    values:
+      layout: member
+  # markdown files in /_posts
+  - scope:
+      type: "posts"
+    values:
+      layout: post
+
+collections:
+  # generate page for each member
+  members:
+    output: true
+  # generate page for each post
+  posts:
+    output: true
+
+# jekyll plugins
+plugins:
+  - jekyll-spaceship
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-last-modified-at
+
+# code block syntax highlighting
+highlighter: rouge
+
+# jekyll theme
+theme: null
+
+# sass settings
+sass:
+  sass_dir: _styles
+
+# force jekyll to include certain files/folders
+include:
+  - _styles
+  - _scripts
+
+# force jekyll to exclude certain files/folders
+exclude:
+  - README.md
+  - LICENSE.md
+  - CITATION.cff
+
+# configure jekyll spaceship
+jekyll-spaceship:
+  mathjax-processor:
+    src:
+      - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js
