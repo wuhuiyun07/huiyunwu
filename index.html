@@ -3,95 +3,53 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Microbial Water Quality Lab · Huiyun Wu</title>
+  <title>Microbial Water Quality Lab · Huiyun Wu · Washington State University</title>
   <meta name="description" content="We study the microorganisms in water that make people sick, and the engineering that removes them.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@340;480;600&display=swap" rel="stylesheet">
   <style>
-    :root { --ink:#17211e; --soft:#4d5c57; --deep:#102e2b; --teal:#1e6f66; --clay:#b4633e; --paper:#f4f0e8; --line:#e4ddd2; }
+    :root { --deep:#102e2b; --paper:#f6f1e8; --line:rgba(247,243,236,.35); }
     * { box-sizing:border-box; }
-    body { margin:0; color:var(--ink); background:var(--paper); font-family:Outfit,sans-serif; font-size:18px; line-height:1.6; }
-    a { color:var(--teal); }
-    img { max-width:100%; display:block; }
-    .nav { display:flex; justify-content:space-between; align-items:center; gap:20px; padding:18px 7vw; position:sticky; top:0; background:rgba(244,240,232,.94); backdrop-filter:blur(10px); border-bottom:1px solid var(--line); z-index:2; }
-    .brand { color:var(--ink); text-decoration:none; font-weight:600; }
+    body { margin:0; color:#f7f3ec; background:var(--deep); font-family:Outfit,sans-serif; }
+    a { color:inherit; }
+    .nav { display:flex; justify-content:space-between; align-items:center; padding:18px 5vw; }
+    .brand { text-decoration:none; font-weight:600; }
     .nav-links { display:flex; gap:22px; }
-    .nav-links a { color:var(--soft); text-decoration:none; }
-    .nav-links a[aria-current="page"] { color:var(--ink); }
-    .hero { min-height:78vh; display:grid; place-items:end start; padding:8vh 7vw; color:#f7f3ec; background:#102e2b center/cover no-repeat; }
-    .hero h1 { font-family:Fraunces,serif; font-size:clamp(46px,7vw,84px); line-height:.95; margin:0 0 16px; max-width:900px; font-weight:500; }
-    .kicker { letter-spacing:.16em; text-transform:uppercase; font-size:12px; color:#e4d3c2; }
-    .role { max-width:640px; font-size:20px; }
-    .btn { display:inline-block; margin:8px 8px 0 0; padding:10px 16px; border-radius:999px; text-decoration:none; background:#f6f1e8; color:var(--deep); }
-    .wrap { width:min(1080px, calc(100% - 10vw)); margin:0 auto; }
-    section { padding:72px 0; }
-    h2, h3 { font-family:Fraunces,serif; font-weight:500; letter-spacing:-.03em; }
-    h2 { font-size:clamp(32px,4vw,48px); margin:0 0 12px; }
-    .lede { font-size:20px; color:var(--soft); max-width:740px; }
-    .grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
-    .card { background:#fffdf9; border:1px solid var(--line); border-radius:18px; padding:22px; }
-    .split { display:grid; grid-template-columns:.9fr 1.1fr; gap:36px; align-items:center; }
-    .split img, .frame { border-radius:18px; width:100%; object-fit:cover; }
-    .person { display:grid; grid-template-columns:140px 1fr; gap:22px; }
-    .person img { width:140px; height:140px; object-fit:cover; border-radius:50%; }
-    footer { background:var(--deep); color:#e7efe9; padding:42px 0; }
-    footer a { color:#f3e6d8; }
-    .fine { color:#b7c7c3; font-size:14px; }
-    @media (max-width:800px) { .grid, .split, .person, .nav { grid-template-columns:1fr; display:block; } .nav-links { display:flex; margin-top:10px; } }
+    .nav-links a { color:#d7e4df; text-decoration:none; }
+    .hero { min-height:calc(100vh - 64px); display:grid; grid-template-columns:1.05fr .95fr; }
+    .copy { display:flex; flex-direction:column; justify-content:flex-end; padding:8vh 6vw 10vh; }
+    .kicker { letter-spacing:.18em; text-transform:uppercase; font-size:13px; color:#e4d3c2; margin:0 0 18px; }
+    h1 { font-family:Fraunces,serif; font-weight:500; font-size:clamp(52px,6vw,84px); line-height:.95; margin:0 0 18px; }
+    .role { max-width:560px; font-size:20px; line-height:1.45; }
+    .btn { display:inline-block; margin:22px 10px 0 0; padding:12px 18px; border-radius:999px; text-decoration:none; background:var(--paper); color:var(--deep); }
+    .btn.ghost { background:transparent; color:#f7f3ec; border:1px solid var(--line); }
+    .photo { background:url('images/dusk.jpg') center/cover no-repeat; position:relative; }
+    .photo span { position:absolute; right:22px; bottom:18px; letter-spacing:.14em; text-transform:uppercase; font-size:12px; color:rgba(247,243,236,.8); }
+    @media (max-width:800px) { .hero, .nav { display:block; } .photo { min-height:320px; } .nav-links { margin-top:10px; } }
   </style>
 </head>
 <body>
   <header class="nav">
     <a class="brand" href="index.html">Microbial Water Quality Lab</a>
     <nav class="nav-links">
-      <a href="index.html" aria-current="page">Home</a>
+      <a href="index.html">Home</a>
       <a href="research.html">Research</a>
       <a href="team.html">Team</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
-  <main>
-    <section class="hero" style="background-image:linear-gradient(90deg,rgba(16,46,43,.78),rgba(16,46,43,.25)),url('images/water.jpg')">
+  <section class="hero">
+    <div class="copy">
+      <p class="kicker">Huiyun Wu · Washington State University</p>
+      <h1>Microbial Water Quality Lab</h1>
+      <p class="role">We study the microorganisms in water that make people sick, and the engineering that removes them — from a wastewater sample to a treatment decision a utility can act on.</p>
       <div>
-        <p class="kicker">Huiyun Wu · Washington State University</p>
-        <h1>Microbial Water Quality Lab</h1>
-        <p class="role">We study the microorganisms in water that make people sick, and the engineering that removes them — from a wastewater sample to a treatment decision a utility can act on.</p>
         <a class="btn" href="mailto:huiyun.wu@wsu.edu">huiyun.wu@wsu.edu</a>
-        <a class="btn" href="research.html">Research</a>
+        <a class="btn ghost" href="https://scholar.google.com/citations?user=sAIJSssAAAAJ">Google Scholar</a>
       </div>
-    </section>
-    <section>
-      <div class="wrap split">
-        <img src="images/river-band.jpg" alt="The Mississippi River at New Orleans">
-        <div>
-          <p class="kicker">The lab</p>
-          <h2>From a sample to a decision.</h2>
-          <p>Wastewater surveillance, virus removal and reuse, prophage ecology, source tracking and transport modelling, biofilms, and the sequencing and bioinformatics that hold it together.</p>
-          <p>The lab sits in the <a href="https://ce.wsu.edu/">Department of Civil and Environmental Engineering</a> at Washington State University, in the <a href="https://vcea.wsu.edu/">Voiland College of Engineering and Architecture</a>.</p>
-        </div>
-      </div>
-    </section>
-    <section style="padding-top:0">
-      <div class="wrap grid">
-        <article class="card">
-          <h3>An 840 square foot BSL-2 lab</h3>
-          <p>An environmental virology laboratory in the PACCAR Environmental Technology Building, with long-read sequencing, digital and quantitative PCR, and a dedicated node on the university computing cluster.</p>
-          <p><a href="team.html">Meet the group</a></p>
-        </article>
-        <article class="card">
-          <h3>Join the lab</h3>
-          <p>Funding is available for master's and doctoral research assistants, and for undergraduate researchers. You do not need a background in microbiology.</p>
-          <p><a href="contact.html">Write to us</a></p>
-        </article>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div class="wrap">
-      <strong>Microbial Water Quality Lab</strong>
-      <p>Huiyun Wu, Ph.D. · PACCAR Environmental Technology Building · Pullman, Washington 99164<br><a href="mailto:huiyun.wu@wsu.edu">huiyun.wu@wsu.edu</a> · 509-335-8167</p>
     </div>
-  </footer>
+    <div class="photo" role="img" aria-label="Sunset over still water"><span>Civil and Environmental Engineering</span></div>
+  </section>
 </body>
 </html>
